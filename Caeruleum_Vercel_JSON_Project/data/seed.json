@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "users": [
+    {
+      "id": 1,
+      "name": "Caeruleum Admin",
+      "email": "admin@caeruleum.local",
+      "role": "admin",
+      "bio": "Local demo administrator for managing users and verification.",
+      "isVerified": true,
+      "emailVerified": true,
+      "joined": "2026-07-25T10:43:03.719Z",
+      "portfolio": []
+    },
+    {
+      "id": 2,
+      "name": "Mira Sol",
+      "email": "artist@caeruleum.local",
+      "role": "artist",
+      "bio": "Character illustrator who blends elegant linework with cinematic monochrome lighting. Available for character sheets, portraits, and visual concepts.",
+      "isVerified": true,
+      "emailVerified": true,
+      "joined": "2026-08-19T10:43:03.719Z",
+      "portfolio": [
+        {
+          "id": 301,
+          "artistId": 2,
+          "title": "Nocturne — Character Study",
+          "description": "A monochrome character concept study.",
+          "url": "/assets/portfolio-nocturne.svg",
+          "fileName": "portfolio-nocturne.svg",
+          "mimeType": "image/svg+xml",
+          "fileSize": 1200,
+          "isImage": true,
+          "isPsd": false,
+          "createdAt": "2026-10-03T10:43:03.719Z"
+        },
+        {
+          "id": 302,
+          "artistId": 2,
+          "title": "The Quiet Orbit",
+          "description": "Editorial portrait illustration.",
+          "url": "/assets/portfolio-orbit.svg",
+          "fileName": "portfolio-orbit.svg",
+          "mimeType": "image/svg+xml",
+          "fileSize": 1100,
+          "isImage": true,
+          "isPsd": false,
+          "createdAt": "2026-10-06T10:43:03.719Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kaito Vale",
+      "email": "artist2@caeruleum.local",
+      "role": "artist",
+      "bio": "3D artist and animator creating stylized assets, environment props, and short motion pieces.",
+      "isVerified": true,
+      "emailVerified": true,
+      "joined": "2026-09-08T10:43:03.719Z",
+      "portfolio": [
+        {
+          "id": 303,
+          "artistId": 3,
+          "title": "Monolith — 3D Study",
+          "description": "A sculptural grayscale material study.",
+          "url": "/assets/portfolio-monolith.svg",
+          "fileName": "portfolio-monolith.svg",
+          "mimeType": "image/svg+xml",
+          "fileSize": 1300,
+          "isImage": true,
+          "isPsd": false,
+          "createdAt": "2026-10-08T10:43:03.719Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Alex Morgan",
+      "email": "client@caeruleum.local",
+      "role": "client",
+      "bio": "Digital creator commissioning artwork for independent projects.",
+      "isVerified": false,
+      "emailVerified": true,
+      "joined": "2026-09-25T10:43:03.719Z",
+      "portfolio": []
+    }
+  ],
+  "listings": [
+    {
+      "id": 101,
+      "artistId": 2,
+      "title": "Signature Character Illustration",
+      "category": "Illustration",
+      "price": 180,
+      "deliveryDays": 10,
+      "slotsTotal": 4,
+      "slotsUsed": 1,
+      "description": "A polished character illustration with expressive linework, grayscale rendering, and a high-resolution PNG deliverable. Includes two refinement rounds.",
+      "coverImageUrl": "/assets/portfolio-nocturne.svg",
+      "coverImageName": "portfolio-nocturne.svg",
+      "coverImageMime": "image/svg+xml",
+      "coverImageSize": 1200,
+      "coverIsImage": true,
+      "createdAt": "2026-09-30T10:43:03.719Z",
+      "updatedAt": "2026-10-11T10:43:03.719Z"
+    },
+    {
+      "id": 102,
+      "artistId": 2,
+      "title": "Full-Body Character Concept",
+      "category": "Illustration",
+      "price": 260,
+      "deliveryDays": 14,
+      "slotsTotal": 3,
+      "slotsUsed": 0,
+      "description": "A full-body character concept with front-facing details, silhouette exploration, and a clean presentation sheet.",
+      "coverImageUrl": "/assets/portfolio-orbit.svg",
+      "coverImageName": "portfolio-orbit.svg",
+      "coverImageMime": "image/svg+xml",
+      "coverImageSize": 1100,
+      "coverIsImage": true,
+      "createdAt": "2026-10-02T10:43:03.719Z",
+      "updatedAt": "2026-10-12T10:43:03.719Z"
+    },
+    {
+      "id": 103,
+      "artistId": 3,
+      "title": "Stylized 3D Asset",
+      "category": "3D Asset",
+      "price": 320,
+      "deliveryDays": 18,
+      "slotsTotal": 2,
+      "slotsUsed": 1,
+      "description": "A stylized prop or small environment asset with grayscale materials, three preview angles, and a clean export package.",
+      "coverImageUrl": "/assets/portfolio-monolith.svg",
+      "coverImageName": "portfolio-monolith.svg",
+      "coverImageMime": "image/svg+xml",
+      "coverImageSize": 1300,
+      "coverIsImage": true,
+      "createdAt": "2026-10-04T10:43:03.719Z",
+      "updatedAt": "2026-10-12T10:43:03.719Z"
+    },
+    {
+      "id": 104,
+      "artistId": 3,
+      "title": "Short Motion Loop",
+      "category": "Animation",
+      "price": 450,
+      "deliveryDays": 21,
+      "slotsTotal": 2,
+      "slotsUsed": 0,
+      "description": "A short seamless animation loop with timing polish, a preview MP4, and the source project file.",
+      "coverImageUrl": "/assets/portfolio-orbit.svg",
+      "coverImageName": "portfolio-orbit.svg",
+      "coverImageMime": "image/svg+xml",
+      "coverImageSize": 1100,
+      "coverIsImage": true,
+      "createdAt": "2026-10-05T10:43:03.719Z",
+      "updatedAt": "2026-10-10T10:43:03.719Z"
+    },
+    {
+      "id": 105,
+      "artistId": 2,
+      "title": "Live2D Ready Character Art",
+      "category": "Live2D",
+      "price": 380,
+      "deliveryDays": 16,
+      "slotsTotal": 3,
+      "slotsUsed": 0,
+      "description": "Layer-separated character illustration prepared for a Live2D rigging workflow. Rigging itself is not included.",
+      "coverImageUrl": "/assets/portfolio-nocturne.svg",
+      "coverImageName": "portfolio-nocturne.svg",
+      "coverImageMime": "image/svg+xml",
+      "coverImageSize": 1200,
+      "coverIsImage": true,
+      "createdAt": "2026-10-07T10:43:03.719Z",
+      "updatedAt": "2026-10-12T10:43:03.719Z"
+    }
+  ],
+  "commissions": [
+    {
+      "id": 1001,
+      "listingId": 101,
+      "clientId": 4,
+      "artistId": 2,
+      "status": "requested",
+      "paymentStatus": "pending",
+      "price": 180,
+      "brief": "Please create a grayscale character portrait with a calm, mysterious expression. Include a clean background and a high-resolution PNG.",
+      "revisions": 0,
+      "createdAt": "2026-10-12T10:43:03.719Z",
+      "updatedAt": "2026-10-12T10:43:03.719Z",
+      "files": [],
+      "comments": [
+        {
+          "id": 801,
+          "authorId": 4,
+          "text": "I can provide a reference image after the brief is accepted.",
+          "at": "2026-10-12T10:43:03.719Z"
+        }
+      ],
+      "history": [
+        {
+          "id": 901,
+          "from": null,
+          "to": "requested",
+          "actorId": 4,
+          "note": "Commission requested.",
+          "at": "2026-10-12T10:43:03.719Z"
+        }
+      ],
+      "invoice": null,
+      "payout": null,
+      "paypalTransaction": null
+    },
+    {
+      "id": 1002,
+      "listingId": 103,
+      "clientId": 4,
+      "artistId": 3,
+      "status": "inreview",
+      "paymentStatus": "paid",
+      "price": 320,
+      "brief": "Create a stylized 3D monolith prop with a matte material and three presentation angles.",
+      "revisions": 1,
+      "createdAt": "2026-10-08T10:43:03.719Z",
+      "updatedAt": "2026-10-12T10:43:03.719Z",
+      "files": [
+        {
+          "id": 401,
+          "type": "wip",
+          "label": "Grayscale blockout preview",
+          "url": "/assets/portfolio-monolith.svg",
+          "fileName": "portfolio-monolith.svg",
+          "mimeType": "image/svg+xml",
+          "fileSize": 1300,
+          "isImage": true,
+          "isPsd": false,
+          "versionNo": 1,
+          "addedBy": 3,
+          "createdAt": "2026-10-10T10:43:03.719Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": 802,
+          "authorId": 4,
+          "text": "The silhouette looks good. Please refine the lower edge before final delivery.",
+          "at": "2026-10-11T10:43:03.719Z"
+        },
+        {
+          "id": 803,
+          "authorId": 3,
+          "text": "Understood — I will include the refinement in the next preview.",
+          "at": "2026-10-12T10:43:03.719Z"
+        }
+      ],
+      "history": [
+        {
+          "id": 902,
+          "from": null,
+          "to": "requested",
+          "actorId": 4,
+          "note": "Commission requested.",
+          "at": "2026-10-08T10:43:03.719Z"
+        },
+        {
+          "id": 903,
+          "from": "requested",
+          "to": "accepted",
+          "actorId": 3,
+          "note": "Artist accepted the brief.",
+          "at": "2026-10-09T10:43:03.719Z"
+        },
+        {
+          "id": 904,
+          "from": "accepted",
+          "to": "inprogress",
+          "actorId": 3,
+          "note": "Production started.",
+          "at": "2026-10-09T10:43:03.719Z"
+        },
+        {
+          "id": 905,
+          "from": "inprogress",
+          "to": "inreview",
+          "actorId": 3,
+          "note": "Draft submitted for review.",
+          "at": "2026-10-12T10:43:03.719Z"
+        }
+      ],
+      "invoice": {
+        "id": 701,
+        "commissionId": 1002,
+        "invoiceNumber": "CAE-DEMO-1002",
+        "clientId": 4,
+        "artistId": 3,
+        "subtotal": 320,
+        "platformFee": 0,
+        "total": 320,
+        "status": "paid",
+        "issuedAt": "2026-10-09T10:43:03.719Z",
+        "paidAt": "2026-10-09T10:43:03.719Z",
+        "demo": true
+      },
+      "payout": null,
+      "paypalTransaction": {
+        "id": 801,
+        "commissionId": 1002,
+        "paypalOrderId": "LOCAL-DEMO-ORDER-1002",
+        "paypalCaptureId": "LOCAL-DEMO-CAPTURE-1002",
+        "environment": "local-demo",
+        "currency": "USD",
+        "amount": 320,
+        "status": "simulated",
+        "payerEmail": "client@caeruleum.local",
+        "createdAt": "2026-10-09T10:43:03.719Z",
+        "updatedAt": "2026-10-09T10:43:03.719Z"
+      }
+    }
+  ],
+  "inviteCodes": [
+    {
+      "id": 501,
+      "code": "CAERULEUM-DEMO-2026",
+      "createdBy": 1,
+      "isUsed": false,
+      "usedBy": null,
+      "createdAt": "2026-10-10T10:43:03.719Z"
+    },
+    {
+      "id": 502,
+      "code": "CAERULEUM-ARTS-2048",
+      "createdBy": 1,
+      "isUsed": false,
+      "usedBy": null,
+      "createdAt": "2026-10-11T10:43:03.719Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 601,
+      "userId": 4,
+      "commissionId": 1001,
+      "message": "Your commission request was sent to Mira Sol.",
+      "read": false,
+      "at": "2026-10-12T10:43:03.719Z"
+    },
+    {
+      "id": 602,
+      "userId": 2,
+      "commissionId": 1001,
+      "message": "Alex Morgan sent you a commission request.",
+      "read": false,
+      "at": "2026-10-12T10:43:03.719Z"
+    },
+    {
+      "id": 603,
+      "userId": 4,
+      "commissionId": 1002,
+      "message": "Kaito Vale submitted a draft for review.",
+      "read": true,
+      "at": "2026-10-12T10:43:03.719Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 10001,
+      "commissionId": 1002,
+      "senderId": 4,
+      "recipientId": 3,
+      "message": "The silhouette looks good. Please refine the lower edge before final delivery.",
+      "sentAt": "2026-10-11T10:43:03.720Z",
+      "readAt": "2026-10-12T10:43:03.720Z",
+      "attachmentUrl": null,
+      "attachmentName": null,
+      "attachmentMime": null,
+      "attachmentSize": null
+    },
+    {
+      "id": 10002,
+      "commissionId": 1002,
+      "senderId": 3,
+      "recipientId": 4,
+      "message": "I have made a note of that and will send the revised preview shortly.",
+      "sentAt": "2026-10-12T10:43:03.720Z",
+      "readAt": null,
+      "attachmentUrl": null,
+      "attachmentName": null,
+      "attachmentMime": null,
+      "attachmentSize": null
+    }
+  ],
+  "auditlog": [
+    {
+      "id": 1101,
+      "at": "2026-10-10T10:43:03.720Z",
+      "actor": "Caeruleum Admin",
+      "action": "LOCAL_DEMO_INITIALIZED",
+      "target": "Created demo users, listings, and workflow records."
+    },
+    {
+      "id": 1102,
+      "at": "2026-10-11T10:43:03.720Z",
+      "actor": "Caeruleum Admin",
+      "action": "INVITE_CODES_CREATED",
+      "target": "Two demo artist verification codes created."
+    }
+  ],
+  "integrationLogs": [
+    {
+      "id": 1201,
+      "at": "2026-10-12T10:43:03.720Z",
+      "endpoint": "JSON STORE",
+      "message": "Local JSON persistence ready.",
+      "status": "OK"
+    },
+    {
+      "id": 1202,
+      "at": "2026-10-12T10:43:03.720Z",
+      "endpoint": "LOCAL REST API",
+      "message": "Local API routes initialized.",
+      "status": "OK"
+    }
+  ],
+  "verificationCodes": [],
+  "sessions": {},
+  "next": {
+    "userId": 5,
+    "listingId": 106,
+    "commissionId": 1003,
+    "notificationId": 604,
+    "messageId": 10003,
+    "auditId": 1103,
+    "logId": 1203,
+    "inviteCodeId": 503,
+    "portfolioId": 304,
+    "fileId": 402,
+    "commentId": 804,
+    "historyId": 906,
+    "invoiceId": 702,
+    "payoutId": 802,
+    "verificationId": 1
+  }
+}

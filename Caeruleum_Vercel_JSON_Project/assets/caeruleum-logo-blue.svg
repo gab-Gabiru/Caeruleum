@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 86" role="img" aria-labelledby="title desc">
+  <title id="title">Caeruleum</title>
+  <desc id="desc">Black-and-blue Caeruleum wordmark with a circular line emblem.</desc>
+  <g fill="none" stroke="#3b82f6" stroke-width="2.1" stroke-linecap="round">
+    <circle cx="42" cy="43" r="29" stroke-opacity=".42"/>
+    <path d="M53 27.5a19 19 0 1 0 0 31" stroke="#38bdf8" stroke-width="2.8"/>
+    <path d="M57 22.5a25 25 0 0 0-31 5M27 59.5a25 25 0 0 0 30 4" stroke-opacity=".72"/>
+    <path d="M42 11v7M42 68v7M10 43h7M67 43h7" stroke-opacity=".65"/>
+  </g>
+  <text x="91" y="56" fill="#f0f6ff" font-family="Georgia, 'Times New Roman', serif" font-size="43" letter-spacing="4.1">CAERULEUM</text>
+</svg>

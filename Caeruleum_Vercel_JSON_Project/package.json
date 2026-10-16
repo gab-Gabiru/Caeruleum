@@ -1,0 +1,8 @@
+{
+  "name": "caeruleum-vercel-json-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static Caeruleum creative commission marketplace demo for Vercel. JSON state is saved per browser.",
+  "engines": { "node": ">=20" }
+}
